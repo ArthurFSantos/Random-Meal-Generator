@@ -14,10 +14,24 @@
     <button class="recipe-button" type="button" onclick="newRecipe()">New Recipe</button>
 
     <div class="recipe">
-        <h2>Recipe name</h2>
-        <img src="https://www.heynutritionlady.com/wp-content/uploads/2018/01/winter_vegetable_meal_prep_bowls_3-500x453.jpg">
-        <p>Recipe ingredients</p>
-        <p>Recipe instrucions</p>
+        <h2 id="name">Recipe name</h2>
+
+        <img id="image" src="https://www.heynutritionlady.com/wp-content/uploads/2018/01/winter_vegetable_meal_prep_bowls_3-500x453.jpg">
+
+        <!-- See why table isn't in center -->
+        <table id="ingredients">
+            <tr>
+                <td>Ingredient</td>
+                <td>Measure</td>
+            </tr>
+            <tr>
+                <td>Ingredient 1</td>
+                <td>Measure 1</td>
+            </tr>
+            <!-- The table will be generated with JavaScript! -->
+        </table>
+            
+        <p id="instrucions">Recipe instrucions</p>
     </div>
 
     <footer>
